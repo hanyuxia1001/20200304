@@ -7,7 +7,7 @@ class Test02:
     @allure.step(title="执行登录")
     def test01(self):
         assert 0
-        allure.attach("失败原因：","验证码错误！")
+        allure.attach("失败原因：","验证码错误 ！")
         pass
 
     @pytest.allure.severity(pytest.allure.severity_level.MINOR)
